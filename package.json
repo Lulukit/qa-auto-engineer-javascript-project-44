@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "brain-calc": "node bin/brain-calc.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,8 @@
   "homepage": "https://github.com/Lulukit/qa-auto-engineer-javascript-project-44#readme",
   "bin": {
     "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js"
+    "brain-even": "bin/brain-even.js",
+    "brain-calc": "bin/brain-calc.js"
   },
   "dependencies": {
     "readline-sync": "^1.4.10"

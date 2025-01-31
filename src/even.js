@@ -16,11 +16,11 @@ const checkEven = () => {
       console.log('Correct!');
     } else if (randomDecimal % 2 === 0 && userAnswer === 'no') {
       console.log("'no' is wrong answer ;(. Correct answer was 'yes'.");
-      console.log(`Let's try again, ${userName}`)
+      console.log(`Let's try again, ${userName}`);
       break;
     } else if (randomDecimal % 2 !== 0 && userAnswer === 'yes') {
       console.log("'yes' is wrong answer ;(. Correct answer was 'no'.");
-      console.log(`Let's try again, ${userName}`)
+      console.log(`Let's try again, ${userName}`);
       break;
     }
     console.log(`Congratulations, ${userName}!`);
