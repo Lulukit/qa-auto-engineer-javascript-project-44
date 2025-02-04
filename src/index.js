@@ -15,7 +15,7 @@ export const greetings = (gameDescription) => {
 
 export const game = (userName, generateQuestion) => {
   const roundsCount = 3;
-  
+
   for (let i = 0; i < roundsCount; i += 1) {
     const { question, answer: correctAnswer } = generateQuestion();
     console.log(`Question: ${question}`);

@@ -1,4 +1,4 @@
-export const description = 'What is the result of the expression?'
+export const description = 'What is the result of the expression?';
 const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
 const getRandomOperation = () => {

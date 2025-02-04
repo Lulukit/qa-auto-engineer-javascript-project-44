@@ -14,7 +14,7 @@ export const generateQuestion = () => {
   const number = getRandomNumber(1, 100);
   const question = number.toString();
   const answer = isPrime(number) ? 'yes' : 'no';
-  
+
   return { question, answer };
 };
 
